@@ -1,0 +1,18 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                                        Test Method: 'API_Tests.postapi'                                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Response status code: "201", status line: "HTTP/1.1 201 Created" @26-03-2024 20:09:14.0127 PM
+[ReportManager] Expected "true", and actual "true" @26-03-2024 20:09:14.0151 PM
+[ReportManager] Assertion "ValidateEquals" PASSED. Expected "true" and Actual "true". Comparison Type "EQUALS". Validation Type "POSITIVE". @26-03-2024 20:09:14.0195 PM
+[ReportManager] Assertion Passed: "true" is TRUE. @26-03-2024 20:09:14.0196 PM
+[ReportManager] Evaluating that the response is successful (Status code is between 200 and 299). @26-03-2024 20:09:14.0204 PM
+[ReportManager] Request details:  "POST | Target Status Code: 0 | Service URL: https://reqres.in/api/users | Content Type: application/json | Response Time: 1532ms". @26-03-2024 20:09:15.0551 PM
+[ReportManager] Successfully created attachment 'API Request - Specifications' @26-03-2024 20:09:15.0553 PM
+[ReportManager] Successfully created attachment 'API Request - JSON Body' @26-03-2024 20:09:15.0554 PM
+[ReportManager] Successfully created attachment 'API Response - JSON Body' @26-03-2024 20:09:15.0555 PM
+[ReportManager] Expected "Hedra", and actual "{"name":"Hedra","job":"leader","id":"223","createdAt":"2024-03-26T18:09:18.001Z"}" @26-03-2024 20:09:15.0559 PM
+[ReportManager] Assertion "ValidateEquals" PASSED. Expected "Hedra" and Actual "{"name":"Hedra","job":"leader","id":"223","createdAt":"2024-03-26T18:09:18.001Z"}". Comparison Type "CONTAINS". Validation Type "POSITIVE". @26-03-2024 20:09:15.0560 PM
+[ReportManager] Assertion Passed: the API response Body contains "Hedra". @26-03-2024 20:09:15.0560 PM
